@@ -45,11 +45,11 @@ Follow these steps to run the project locally:
 tic-tac-toe/
   ├── public/
   ├── app/
-      ├── hooks/
-      ├── styles/
-      ├── types/
-      ├── constants/
-      └── config/
+      ├── components/
+      ├── favicon.ico
+      ├── globals.css
+      ├── layout.tsx
+      └── page.tsx
   ├── components/ui/
   ├── lib/
   ├── .eslintrc.json
