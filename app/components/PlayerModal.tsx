@@ -22,7 +22,7 @@ export const PlayerModal: React.FC<PlayerModalProps> = ({ open, onStart }) => {
 
   return (
     <Dialog open={open}>
-      <DialogContent className='w-[380px]'>
+      <DialogContent className='w-[380px] p-8'>
         <DialogHeader>
           <DialogTitle>Enter Player Names</DialogTitle>
         </DialogHeader>

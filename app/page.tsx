@@ -124,7 +124,7 @@ export default function Game() {
           <Board board={board} onSquareClick={handleClick} />
 
           <Button 
-            className="w-1/4 mt-8"
+            className="w-1/2 md:w-1/4 lg:w-1/4 mt-8 p-2"
             onClick={reset}
             effect="gooeyLeft"
           >
