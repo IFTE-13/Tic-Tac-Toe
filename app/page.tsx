@@ -86,7 +86,15 @@ export const Game: React.FC = () => {
       <div className="max-w-4xl mx-auto space-y-8">
         <PlayerModal open={showModal} onStart={handleStart} />
         <div className='flex justify-between items-center'>
-          <p className='text-muted-foreground'>made by ifte</p>
+          <p className='text-muted-foreground'>made by 
+            <Link 
+              href={"https://ifte-13.vercel.app/"} 
+              target='_blank'
+              className='mx-1 underline hover:text-black'
+            >
+              IFTE-13
+            </Link>
+          </p>
           <Button effect="shine">
             <Link 
             href={'https://github.com/IFTE-13/Tic-Tac-Toe'}
