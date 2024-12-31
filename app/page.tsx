@@ -9,7 +9,7 @@ import { BoardState, Player, Winner, GameHistory } from '@/types';
 import { Github } from 'lucide-react';
 import Link from 'next/link';
 
-export const Game: React.FC = () => {
+export default function Game() {
   const [board, setBoard] = useState<BoardState>(Array(9).fill(null));
   const [isXNext, setIsXNext] = useState<boolean>(true);
   const [winner, setWinner] = useState<Winner>(null);
@@ -140,5 +140,3 @@ export const Game: React.FC = () => {
     </div>
   );
 };
-
-export default Game;
